@@ -21,14 +21,16 @@
 
 
 module guessing_game(
-    input btnU, btnD, btnR, btnL, clk, btnC, sw[0],
-    output [6:0] seg,
+    input btnU, btnD, btnR, btnL, clk, btnC,
+    input[15:0] sw,
+    output reg [6:0] seg,
     output [3:0] an,
     output [15:0] led
     );
     
     wire[3:0] db_out, dc;
-    wire easy_out, hard_out, mux_out;
+    wire easy_out, hard_out, mux_out; 
+    reg win_out, lose_out;
     
     debounce db1 (
         .clk(clk),
@@ -55,12 +57,12 @@ module guessing_game(
         .out(dc[3]),
         .tick(db_out[3]));
         
-        counter_down easy(
+        counter #(.N(27)) easy(
             .clk(clk),
             .rst(btnC),
             .out(easy_out));
             
-        counter_down #(.N(11)) hard(
+        counter #(.N(26)) hard(
             .clk(clk),
             .rst(btnC),
             .out(hard_out));
@@ -75,10 +77,18 @@ module guessing_game(
         .b(db_out),
         .clk(clk),
         .en(mux_out),
-        .y(an),
-        .win(led[15:8]),
-        .lose(led[7:0]));
+        .y(led[15:12]),
+        .win(win_out),
+        .lose(lose_out));
     
-    assign seg[6:0] = 7'b0000001; 
+    always @*
+    if (win_out)
+        seg = 7'b0000000;
+    else if (lose_out)
+        seg = 7'b1111110;
+    else 
+        seg = 7'b1111111;   
+        
+    assign an=0;    
 
 endmodule

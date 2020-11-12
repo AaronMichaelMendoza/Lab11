@@ -41,74 +41,63 @@ module guess_FSM(
         if (reset) begin
             state <= s0;
         end
-        else if (en==1) begin
+        else if (en) begin
             state <= state_next;
         end
         
     always_comb begin
         y[3:0]  = 0;
+        win = 0;
+        lose=0;
         case(state)
             s0: begin
-            y[0] = 1;
-                if (b[0] | b[1] | b[2]) begin
+            y=4'b0001;
+                if (b[1] | b[2] | b[3]) begin
                     state_next = slose;
-                    lose = 1;
-                    win = 0;
                     end
                 else if (b[0] & ~b[1] & ~b[2] & ~b[3]) begin
                     state_next = swin;
-                    win = 1;
-                    lose = 0;
                     end
                 else 
                     state_next = s1;
                 end
             s1: begin
-            y[1] = 1;
+            y=4'b0010;
                 if (b[0] | b[2] | b[3]) begin
                     state_next = slose;
-                    lose = 1;
-                    win = 0;
                     end
                 else if (~b[0] & b[1] & ~b[2] & ~b[3]) begin
                     state_next = swin;
-                    win = 1;
-                    lose = 0;
                     end    
                 else 
                     state_next = s2;
                 end
             s2: begin
-            y[2] = 1;
+            y=4'b0100;
                 if (b[0] | b[1] | b[3]) begin
                     state_next = slose;
-                    lose = 1;
-                    win = 0;
                     end
                 else if (~b[0] & ~b[1] & b[2] & ~b[3]) begin
                     state_next = swin;
-                    win = 1;
-                    lose = 0;
                     end    
                 else 
                     state_next = s3;
                 end
             s3: begin
-            y[3] = 1;
+            y=4'b1000;
                 if (b[0] | b[1] | b[2]) begin
                     state_next = slose;
-                    lose = 1;
-                    win = 0;
                     end
                 else if (~b[0] & ~b[1] & ~b[2] & b[3]) begin
                     state_next = swin;
-                    win = 1;
-                    lose = 0;
                     end    
                 else 
                     state_next = s0;
                 end
             slose: begin
+            lose = 1; 
+            win = 0;
+            y = 4'b0110;
                 if (b[0] | b[1] | b[2] | b[3]) begin
                     state_next = slose;
                     end
@@ -116,6 +105,9 @@ module guess_FSM(
                     state_next = s0;
                 end
             swin: begin
+            win= 1;
+            lose = 0;
+            y=4'b1111;
                 if (b[0] | b[1] | b[2] | b[3]) begin
                     state_next = swin;
                     end
