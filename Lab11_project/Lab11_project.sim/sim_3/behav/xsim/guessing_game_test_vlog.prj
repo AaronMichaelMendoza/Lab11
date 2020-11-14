@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../codedirectory/counter.sv" \
+"../../../../codedirectory/debounce.sv" \
+"../../../../codedirectory/guess_FSM.sv" \
+"../../../../codedirectory/guessing_game.sv" \
+"../../../../codedirectory/mux_diff.sv" \
+"../../../../codedirectory/guessing_game_test.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

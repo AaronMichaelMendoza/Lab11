@@ -74,21 +74,22 @@ module guessing_game(
             .out(mux_out));
     
     guess_FSM myguess_FSM(
-        .b(db_out),
+        .b(dc),
         .clk(clk),
         .en(mux_out),
         .y(led[15:12]),
         .win(win_out),
         .lose(lose_out));
     
-    always @*
+    always @* begin
     if (win_out)
         seg = 7'b0000000;
     else if (lose_out)
         seg = 7'b1111110;
     else 
         seg = 7'b1111111;   
+    end
         
-    assign an=0;    
+    assign an=4'b1110;    
 
 endmodule

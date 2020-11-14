@@ -1,8 +1,8 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
-| Date         : Thu Nov 12 13:40:20 2020
-| Host         : ROG-305-07 running 64-bit major release  (build 9200)
+| Date         : Sat Nov 14 16:13:33 2020
+| Host         : DESKTOP-Q9L58VR running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file guessing_game_control_sets_placed.rpt
 | Design       : guessing_game
 | Device       : xc7a35t
@@ -58,8 +58,8 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |               6 |            3 |
-| No           | No                    | Yes                    |             145 |           39 |
+| No           | No                    | No                     |               6 |            2 |
+| No           | No                    | Yes                    |             145 |           37 |
 | No           | Yes                   | No                     |               0 |            0 |
 | Yes          | No                    | No                     |               6 |            2 |
 | Yes          | No                    | Yes                    |               0 |            0 |
@@ -73,9 +73,9 @@ Table of Contents
 +-------------------------+---------------+------------------+------------------+----------------+--------------+
 |       Clock Signal      | Enable Signal | Set/Reset Signal | Slice Load Count | Bel Load Count | Bels / Slice |
 +-------------------------+---------------+------------------+------------------+----------------+--------------+
-|  myguess_FSM/state_next |               |                  |                3 |              6 |         2.00 |
-|  clk_IBUF_BUFG          | hard/mux_out  |                  |                2 |              6 |         3.00 |
-|  clk_IBUF_BUFG          |               | btnC_IBUF        |               39 |            145 |         3.72 |
+|  myguess_FSM/state_next |               |                  |                2 |              6 |         3.00 |
+|  clk_IBUF_BUFG          | easy/mux_out  |                  |                2 |              6 |         3.00 |
+|  clk_IBUF_BUFG          |               | btnC_IBUF        |               37 |            145 |         3.92 |
 +-------------------------+---------------+------------------+------------------+----------------+--------------+
 
 

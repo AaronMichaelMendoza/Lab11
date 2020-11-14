@@ -1,0 +1,11 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/Lab11_project.sim/sim_3/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/counter.sv,1605390589,systemVerilog,,C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/debounce.sv,,counter,,,,,,,,
+C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/debounce.sv,1605390589,systemVerilog,,C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/guess_FSM.sv,,debounce,,,,,,,,
+C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/guess_FSM.sv,1605390589,systemVerilog,,C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/guessing_game.sv,,guess_FSM,,,,,,,,
+C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/guessing_game.sv,1605392401,systemVerilog,,C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/mux_diff.sv,,guessing_game,,,,,,,,
+C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/guessing_game_test.sv,1605393538,systemVerilog,,,,guessing_game_test,,,,,,,,
+C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/mux_diff.sv,1605390589,systemVerilog,,C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/guessing_game_test.sv,,mux_diff,,,,,,,,

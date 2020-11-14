@@ -2,12 +2,12 @@
 # Vivado v2020.1 (64-bit)
 # SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
 # IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-# Start of session at: Thu Nov 12 13:38:43 2020
-# Process ID: 7316
-# Current directory: C:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/Lab11_project.runs/synth_1
+# Start of session at: Sat Nov 14 16:10:24 2020
+# Process ID: 15208
+# Current directory: C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/Lab11_project.runs/synth_1
 # Command line: vivado.exe -log guessing_game.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source guessing_game.tcl
-# Log file: C:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/Lab11_project.runs/synth_1/guessing_game.vds
-# Journal file: C:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/Lab11_project.runs/synth_1\vivado.jou
+# Log file: C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/Lab11_project.runs/synth_1/guessing_game.vds
+# Journal file: C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/Lab11_project.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source guessing_game.tcl -notrace
 Command: synth_design -top guessing_game -part xc7a35tcpg236-1
@@ -17,81 +17,81 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 15344
+INFO: [Synth 8-7075] Helper process launched with PID 26020
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1028.738 ; gain = 0.000
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1016.230 ; gain = 0.000
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'guessing_game' [C:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/codedirectory/guessing_game.sv:23]
-INFO: [Synth 8-6157] synthesizing module 'debounce' [C:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/codedirectory/debounce.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'guessing_game' [C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/guessing_game.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'debounce' [C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/debounce.sv:4]
 	Parameter N bound to: 21 - type: integer 
 	Parameter zero bound to: 2'b00 
 	Parameter wait1 bound to: 2'b01 
 	Parameter one bound to: 2'b11 
 	Parameter wait0 bound to: 2'b10 
-INFO: [Synth 8-6155] done synthesizing module 'debounce' (1#1) [C:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/codedirectory/debounce.sv:4]
-INFO: [Synth 8-6157] synthesizing module 'counter' [C:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/codedirectory/counter.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'debounce' (1#1) [C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/debounce.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'counter' [C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/counter.sv:23]
 	Parameter N bound to: 27 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'counter' (2#1) [C:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/codedirectory/counter.sv:23]
-INFO: [Synth 8-6157] synthesizing module 'counter__parameterized0' [C:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/codedirectory/counter.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'counter' (2#1) [C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/counter.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'counter__parameterized0' [C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/counter.sv:23]
 	Parameter N bound to: 26 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'counter__parameterized0' (2#1) [C:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/codedirectory/counter.sv:23]
-INFO: [Synth 8-6157] synthesizing module 'mux_diff' [C:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/codedirectory/mux_diff.sv:23]
-INFO: [Synth 8-6155] done synthesizing module 'mux_diff' (3#1) [C:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/codedirectory/mux_diff.sv:23]
-INFO: [Synth 8-6157] synthesizing module 'guess_FSM' [C:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/codedirectory/guess_FSM.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'counter__parameterized0' (2#1) [C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/counter.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'mux_diff' [C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/mux_diff.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'mux_diff' (3#1) [C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/mux_diff.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'guess_FSM' [C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/guess_FSM.sv:23]
 	Parameter s0 bound to: 3'b001 
 	Parameter s1 bound to: 3'b010 
 	Parameter s2 bound to: 3'b011 
 	Parameter s3 bound to: 3'b100 
 	Parameter swin bound to: 3'b101 
 	Parameter slose bound to: 3'b110 
-INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/codedirectory/guess_FSM.sv:52]
-INFO: [Synth 8-6155] done synthesizing module 'guess_FSM' (4#1) [C:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/codedirectory/guess_FSM.sv:23]
-WARNING: [Synth 8-7071] port 'reset' of module 'guess_FSM' is unconnected for instance 'myguess_FSM' [C:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/codedirectory/guessing_game.sv:76]
-WARNING: [Synth 8-7023] instance 'myguess_FSM' of module 'guess_FSM' has 7 connections declared, but only 6 given [C:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/codedirectory/guessing_game.sv:76]
-INFO: [Synth 8-6155] done synthesizing module 'guessing_game' (5#1) [C:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/codedirectory/guessing_game.sv:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/guess_FSM.sv:52]
+INFO: [Synth 8-6155] done synthesizing module 'guess_FSM' (4#1) [C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/guess_FSM.sv:23]
+WARNING: [Synth 8-7071] port 'reset' of module 'guess_FSM' is unconnected for instance 'myguess_FSM' [C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/guessing_game.sv:76]
+WARNING: [Synth 8-7023] instance 'myguess_FSM' of module 'guess_FSM' has 7 connections declared, but only 6 given [C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/guessing_game.sv:76]
+INFO: [Synth 8-6155] done synthesizing module 'guessing_game' (5#1) [C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/guessing_game.sv:23]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1028.738 ; gain = 0.000
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1016.230 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1028.738 ; gain = 0.000
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1016.230 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1028.738 ; gain = 0.000
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1016.230 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1028.738 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1016.230 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [C:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/codedirectory/Basys3_11.xdc]
-Finished Parsing XDC File [C:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/codedirectory/Basys3_11.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/codedirectory/Basys3_11.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/guessing_game_propImpl.xdc].
+Parsing XDC File [C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/Basys3_11.xdc]
+Finished Parsing XDC File [C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/Basys3_11.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/Basys3_11.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/guessing_game_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/guessing_game_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1047.355 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1016.230 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1047.355 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 1016.230 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1047.355 ; gain = 18.617
+Finished Constraint Validation : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1016.230 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1047.355 ; gain = 18.617
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1016.230 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1047.355 ; gain = 18.617
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1016.230 ; gain = 0.000
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'debounce'
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'guess_FSM'
@@ -104,8 +104,8 @@ INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'guess
                    wait0 |                               11 |                               10
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'debounce'
-WARNING: [Synth 8-327] inferring latch for variable 'FSM_sequential_state_next_reg' [C:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/codedirectory/guess_FSM.sv:56]
-WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_state_next_reg' [C:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/codedirectory/guess_FSM.sv:56]
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_sequential_state_next_reg' [C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/guess_FSM.sv:56]
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_state_next_reg' [C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/guess_FSM.sv:56]
 ---------------------------------------------------------------------------------------------------
                    State |                     New Encoding |                Previous Encoding 
 ---------------------------------------------------------------------------------------------------
@@ -117,9 +117,9 @@ WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_state_next_reg' 
                     swin |                           100000 |                              101
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'guess_FSM'
-WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_state_next_reg' [C:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/codedirectory/guess_FSM.sv:56]
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_state_next_reg' [C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/guess_FSM.sv:56]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1047.355 ; gain = 18.617
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1016.230 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -157,25 +157,25 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1047.355 ; gain = 18.617
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 1016.230 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1047.355 ; gain = 18.617
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:46 ; elapsed = 00:00:48 . Memory (MB): peak = 1016.230 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1055.906 ; gain = 27.168
+Finished Timing Optimization : Time (s): cpu = 00:00:47 ; elapsed = 00:00:49 . Memory (MB): peak = 1016.230 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1061.285 ; gain = 32.547
+Finished Technology Mapping : Time (s): cpu = 00:00:47 ; elapsed = 00:00:49 . Memory (MB): peak = 1016.230 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -193,37 +193,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1067.082 ; gain = 38.344
+Finished IO Insertion : Time (s): cpu = 00:00:55 ; elapsed = 00:00:57 . Memory (MB): peak = 1016.230 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1067.082 ; gain = 38.344
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:55 ; elapsed = 00:00:57 . Memory (MB): peak = 1016.230 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1067.082 ; gain = 38.344
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:55 ; elapsed = 00:00:57 . Memory (MB): peak = 1016.230 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1067.082 ; gain = 38.344
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:55 ; elapsed = 00:00:57 . Memory (MB): peak = 1016.230 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1067.082 ; gain = 38.344
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:55 ; elapsed = 00:00:57 . Memory (MB): peak = 1016.230 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1067.082 ; gain = 38.344
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:55 ; elapsed = 00:00:57 . Memory (MB): peak = 1016.230 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -243,10 +243,10 @@ Report Cell Usage:
 |2     |CARRY4 |    34|
 |3     |LUT1   |    83|
 |4     |LUT2   |    95|
-|5     |LUT3   |    11|
+|5     |LUT3   |    10|
 |6     |LUT4   |    19|
-|7     |LUT5   |     6|
-|8     |LUT6   |    18|
+|7     |LUT5   |     7|
+|8     |LUT6   |    28|
 |9     |FDCE   |    61|
 |10    |FDPE   |    84|
 |11    |FDRE   |     6|
@@ -256,18 +256,18 @@ Report Cell Usage:
 |15    |OBUFT  |    12|
 +------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1067.082 ; gain = 38.344
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:55 ; elapsed = 00:00:57 . Memory (MB): peak = 1016.230 ; gain = 0.000
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 1067.082 ; gain = 19.727
-Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1067.082 ; gain = 38.344
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:39 ; elapsed = 00:00:53 . Memory (MB): peak = 1016.230 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:55 ; elapsed = 00:00:58 . Memory (MB): peak = 1016.230 ; gain = 0.000
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1078.102 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1016.230 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 40 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1078.930 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1016.230 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 6 instances were transformed.
   LD => LDCE: 6 instances
@@ -275,7 +275,7 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 INFO: [Common 17-83] Releasing license: Synthesis
 32 Infos, 5 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:33 ; elapsed = 00:00:42 . Memory (MB): peak = 1078.930 ; gain = 50.191
-INFO: [Common 17-1381] The checkpoint 'C:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/Lab11_project.runs/synth_1/guessing_game.dcp' has been generated.
+synth_design: Time (s): cpu = 00:01:05 ; elapsed = 00:01:09 . Memory (MB): peak = 1016.230 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/Lab11_project.runs/synth_1/guessing_game.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file guessing_game_utilization_synth.rpt -pb guessing_game_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Thu Nov 12 13:39:33 2020...
+INFO: [Common 17-206] Exiting Vivado at Sat Nov 14 16:11:38 2020...
