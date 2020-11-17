@@ -74,7 +74,7 @@ module guessing_game(
             .out(mux_out));
     
     guess_FSM myguess_FSM(
-        .b(dc),
+        .b(db_out),
         .clk(clk),
         .en(mux_out),
         .y(led[15:12]),
