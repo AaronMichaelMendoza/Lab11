@@ -1367,3 +1367,140 @@ selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); //
 selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "guessing_game.sv", 0); // m (l, cs)
 // Elapsed time: 12 seconds
 selectCodeEditor("guessing_game.sv", 229, 298); // bP (w, cs)
+// Elapsed time: 96 seconds
+selectCodeEditor("guessing_game.sv", 419, 881); // bP (w, cs)
+// Elapsed time: 136 seconds
+selectCodeEditor("guessing_game.sv", 546, 217); // bP (w, cs)
+selectCodeEditor("guessing_game.sv", 362, 265); // bP (w, cs)
+selectCodeEditor("guessing_game.sv", 359, 249); // bP (w, cs)
+selectCodeEditor("guessing_game.sv", 341, 264); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 4", 4); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "guess_FSM_test.sv", 3); // m (l, cs)
+// WARNING: HEventQueue.dispatchEvent() is taking  21600228 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1428 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1594 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 3,454 MB. GUI used memory: 184 MB. Current time: 11/14/20, 10:49:12 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1129 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1542 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 44608719 ms. Increasing delay to 133826157 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1345 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 3,454 MB. GUI used memory: 178 MB. Current time: 11/15/20, 11:12:52 AM CST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 3486 ms. Increasing delay to 5000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 3,454 MB. GUI used memory: 217 MB. Current time: 11/15/20, 11:42:47 AM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1417 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 3,454 MB. GUI used memory: 178 MB. Current time: 11/15/20, 12:12:49 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 3,454 MB. GUI used memory: 178 MB. Current time: 11/15/20, 12:42:49 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  18834 ms.
+// [GUI Memory]: 262 MB (+716kb) [21:18:29]
+// WARNING: HEventQueue.dispatchEvent() is taking  1139 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 3,454 MB. GUI used memory: 178 MB. Current time: 11/15/20, 1:12:53 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 3,454 MB. GUI used memory: 178 MB. Current time: 11/15/20, 1:42:53 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1127 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  999466 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1154 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 3,454 MB. GUI used memory: 178 MB. Current time: 11/15/20, 2:12:53 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1746257 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 3,454 MB. GUI used memory: 178 MB. Current time: 11/15/20, 2:47:28 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  2793 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1593 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  564613 ms.
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// WARNING: HEventQueue.dispatchEvent() is taking  1713 ms.
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// [GUI Memory]: 285 MB (+10885kb) [23:07:59]
+// WARNING: HEventQueue.dispatchEvent() is taking  112600 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1380 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 3,454 MB. GUI used memory: 178 MB. Current time: 11/15/20, 3:17:29 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  81508 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2079173 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 3,454 MB. GUI used memory: 178 MB. Current time: 11/15/20, 4:21:11 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1296 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1829 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 3,454 MB. GUI used memory: 178 MB. Current time: 11/15/20, 4:51:11 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  6829163 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2443 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 3,454 MB. GUI used memory: 178 MB. Current time: 11/15/20, 6:58:25 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1091 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1302 ms.
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// WARNING: HEventQueue.dispatchEvent() is taking  3437443 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 3,454 MB. GUI used memory: 179 MB. Current time: 11/15/20, 8:00:55 PM CST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 3440448 ms. Increasing delay to 6000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1385 ms.
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// WARNING: HEventQueue.dispatchEvent() is taking  260801 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1247 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 3,454 MB. GUI used memory: 178 MB. Current time: 11/15/20, 8:30:55 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  2577983 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 3,454 MB. GUI used memory: 178 MB. Current time: 11/15/20, 9:21:46 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1985 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1569 ms.
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// WARNING: HEventQueue.dispatchEvent() is taking  1364 ms.
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// WARNING: HEventQueue.dispatchEvent() is taking  1624579 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 3,454 MB. GUI used memory: 179 MB. Current time: 11/15/20, 10:01:47 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1383264 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  24879082 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 3,454 MB. GUI used memory: 179 MB. Current time: 11/16/20, 5:19:42 AM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  27167611 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 3,454 MB. GUI used memory: 178 MB. Current time: 11/16/20, 1:22:19 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  2036 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 532 ms to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 3,454 MB. GUI used memory: 179 MB. Current time: 11/16/20, 1:52:18 PM CST
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 939 ms to process. Increasing delay to 2000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1526 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 3,454 MB. GUI used memory: 179 MB. Current time: 11/16/20, 2:22:19 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1142 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 3,454 MB. GUI used memory: 179 MB. Current time: 11/16/20, 2:52:19 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1413 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 3,454 MB. GUI used memory: 179 MB. Current time: 11/16/20, 3:22:20 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  276131 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 3,454 MB. GUI used memory: 178 MB. Current time: 11/16/20, 3:56:49 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1650 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  13951585 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 3,454 MB. GUI used memory: 178 MB. Current time: 11/16/20, 7:55:33 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1152 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1059 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2101 ms.
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// WARNING: HEventQueue.dispatchEvent() is taking  189688 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1277 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 3,454 MB. GUI used memory: 178 MB. Current time: 11/16/20, 8:25:32 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  21067 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  318174 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 3,454 MB. GUI used memory: 178 MB. Current time: 11/16/20, 8:56:01 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  148564 ms.
