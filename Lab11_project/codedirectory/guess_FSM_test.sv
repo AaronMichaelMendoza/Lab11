@@ -60,7 +60,9 @@ module guess_FSM_test();
         b=4'b1000; #15; //lose state for third state
         b=4'b0000; #35;
         b=4'b0001; #15; //lose state for fourth state
-        
+        b=4'b0000; #17; 
+        reset = 1; #5; 
+        reset = 0; #20; //testing reset
         $finish;
     end    
 endmodule

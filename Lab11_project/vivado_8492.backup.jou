@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Nov 17 16:57:34 2020
+# Process ID: 8492
+# Current directory: C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6872 C:\Users\ammic\OneDrive\Documents\GitHub\Lab11\Lab11_project\Lab11_project.xpr
+# Log file: C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/vivado.log
+# Journal file: C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/Lab11_project.xpr
+update_compile_order -fileset sources_1

@@ -25,7 +25,8 @@ module guessing_game(
     input[15:0] sw,
     output reg [6:0] seg,
     output [3:0] an,
-    output [15:0] led
+    output [15:0] led,
+    output dp
     );
     
     wire[3:0] db_out, dc;
@@ -74,9 +75,10 @@ module guessing_game(
             .out(mux_out));
     
     guess_FSM myguess_FSM(
-        .b(db_out),
+        .b(dc),
         .clk(clk),
         .en(mux_out),
+        .reset(btnC),
         .y(led[15:12]),
         .win(win_out),
         .lose(lose_out));
@@ -90,6 +92,7 @@ module guessing_game(
         seg = 7'b1111111;   
     end
         
-    assign an=4'b1110;    
+    assign an=4'b0000; 
+    assign dp=1'b1;   
 
 endmodule

@@ -49,6 +49,7 @@ module guess_FSM(
         y[3:0]  = 0;
         win = 0;
         lose=0;
+        state_next = s0;
         case(state)
             s0: begin
             y=4'b0001;

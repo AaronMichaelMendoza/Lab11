@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
-| Date         : Sat Nov 14 16:14:11 2020
+| Date         : Wed Nov 18 14:54:26 2020
 | Host         : DESKTOP-Q9L58VR running 64-bit major release  (build 9200)
 | Command      : report_methodology -file guessing_game_methodology_drc_routed.rpt -pb guessing_game_methodology_drc_routed.pb -rpx guessing_game_methodology_drc_routed.rpx
 | Design       : guessing_game
@@ -23,12 +23,11 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max violations: <unlimited>
-             Violations found: 50
+             Violations found: 44
 +-----------+----------+-------------------------------+------------+
 | Rule      | Severity | Description                   | Violations |
 +-----------+----------+-------------------------------+------------+
 | TIMING-18 | Warning  | Missing input or output delay | 44         |
-| TIMING-20 | Warning  | Non-clocked latch             | 6          |
 +-----------+----------+-------------------------------+------------+
 
 2. REPORT DETAILS
@@ -251,36 +250,6 @@ Related violations: <none>
 TIMING-18#44 Warning
 Missing input or output delay  
 An output delay is missing on seg[6] relative to clock(s) sys_clk_pin
-Related violations: <none>
-
-TIMING-20#1 Warning
-Non-clocked latch  
-The latch myguess_FSM/FSM_onehot_state_next_reg[0] cannot be properly analyzed as its control pin myguess_FSM/FSM_onehot_state_next_reg[0]/G is not reached by a timing clock
-Related violations: <none>
-
-TIMING-20#2 Warning
-Non-clocked latch  
-The latch myguess_FSM/FSM_onehot_state_next_reg[1] cannot be properly analyzed as its control pin myguess_FSM/FSM_onehot_state_next_reg[1]/G is not reached by a timing clock
-Related violations: <none>
-
-TIMING-20#3 Warning
-Non-clocked latch  
-The latch myguess_FSM/FSM_onehot_state_next_reg[2] cannot be properly analyzed as its control pin myguess_FSM/FSM_onehot_state_next_reg[2]/G is not reached by a timing clock
-Related violations: <none>
-
-TIMING-20#4 Warning
-Non-clocked latch  
-The latch myguess_FSM/FSM_onehot_state_next_reg[3] cannot be properly analyzed as its control pin myguess_FSM/FSM_onehot_state_next_reg[3]/G is not reached by a timing clock
-Related violations: <none>
-
-TIMING-20#5 Warning
-Non-clocked latch  
-The latch myguess_FSM/FSM_onehot_state_next_reg[4] cannot be properly analyzed as its control pin myguess_FSM/FSM_onehot_state_next_reg[4]/G is not reached by a timing clock
-Related violations: <none>
-
-TIMING-20#6 Warning
-Non-clocked latch  
-The latch myguess_FSM/FSM_onehot_state_next_reg[5] cannot be properly analyzed as its control pin myguess_FSM/FSM_onehot_state_next_reg[5]/G is not reached by a timing clock
 Related violations: <none>
 
 

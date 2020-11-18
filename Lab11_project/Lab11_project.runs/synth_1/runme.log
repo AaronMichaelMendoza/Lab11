@@ -17,9 +17,9 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 26020
+INFO: [Synth 8-7075] Helper process launched with PID 17836
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1016.230 ; gain = 0.000
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1015.551 ; gain = 0.000
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'guessing_game' [C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/guessing_game.sv:23]
 INFO: [Synth 8-6157] synthesizing module 'debounce' [C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/debounce.sv:4]
@@ -44,24 +44,22 @@ INFO: [Synth 8-6157] synthesizing module 'guess_FSM' [C:/Users/ammic/OneDrive/Do
 	Parameter s3 bound to: 3'b100 
 	Parameter swin bound to: 3'b101 
 	Parameter slose bound to: 3'b110 
-INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/guess_FSM.sv:52]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/guess_FSM.sv:53]
 INFO: [Synth 8-6155] done synthesizing module 'guess_FSM' (4#1) [C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/guess_FSM.sv:23]
-WARNING: [Synth 8-7071] port 'reset' of module 'guess_FSM' is unconnected for instance 'myguess_FSM' [C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/guessing_game.sv:76]
-WARNING: [Synth 8-7023] instance 'myguess_FSM' of module 'guess_FSM' has 7 connections declared, but only 6 given [C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/guessing_game.sv:76]
 INFO: [Synth 8-6155] done synthesizing module 'guessing_game' (5#1) [C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/guessing_game.sv:23]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1016.230 ; gain = 0.000
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1015.551 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1016.230 ; gain = 0.000
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1015.551 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1016.230 ; gain = 0.000
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1015.551 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1016.230 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1015.551 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -72,26 +70,26 @@ INFO: [Project 1-236] Implementation specific constraints were found while readi
 Resolution: To avoid this warning, move constraints listed in [.Xil/guessing_game_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1016.230 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1015.551 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 1016.230 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1015.551 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1016.230 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1015.551 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1016.230 ; gain = 0.000
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1015.551 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1016.230 ; gain = 0.000
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1015.551 ; gain = 0.000
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'debounce'
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'guess_FSM'
@@ -104,22 +102,19 @@ INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'guess
                    wait0 |                               11 |                               10
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'debounce'
-WARNING: [Synth 8-327] inferring latch for variable 'FSM_sequential_state_next_reg' [C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/guess_FSM.sv:56]
-WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_state_next_reg' [C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/guess_FSM.sv:56]
 ---------------------------------------------------------------------------------------------------
                    State |                     New Encoding |                Previous Encoding 
 ---------------------------------------------------------------------------------------------------
-                      s0 |                           000001 |                              001
-                      s1 |                           000010 |                              010
-                      s2 |                           000100 |                              011
-                      s3 |                           001000 |                              100
-                   slose |                           010000 |                              110
-                    swin |                           100000 |                              101
+                      s0 |                              000 |                              001
+                      s1 |                              001 |                              010
+                      s2 |                              010 |                              011
+                      s3 |                              011 |                              100
+                   slose |                              100 |                              110
+                    swin |                              101 |                              101
 ---------------------------------------------------------------------------------------------------
-INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'guess_FSM'
-WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_state_next_reg' [C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/guess_FSM.sv:56]
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'guess_FSM'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1016.230 ; gain = 0.000
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1015.551 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -132,10 +127,9 @@ Detailed RTL Component Info :
 +---Muxes : 
 	   4 Input   21 Bit        Muxes := 4     
 	   3 Input    7 Bit        Muxes := 1     
-	   6 Input    6 Bit        Muxes := 1     
-	   2 Input    6 Bit        Muxes := 10    
 	   6 Input    4 Bit        Muxes := 1     
 	   6 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 10    
 	   4 Input    2 Bit        Muxes := 4     
 	   2 Input    2 Bit        Muxes := 16    
 	   2 Input    1 Bit        Muxes := 9     
@@ -157,25 +151,25 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 1016.230 ; gain = 0.000
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 1015.551 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:46 ; elapsed = 00:00:48 . Memory (MB): peak = 1016.230 ; gain = 0.000
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:58 ; elapsed = 00:01:03 . Memory (MB): peak = 1015.551 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:47 ; elapsed = 00:00:49 . Memory (MB): peak = 1016.230 ; gain = 0.000
+Finished Timing Optimization : Time (s): cpu = 00:00:59 ; elapsed = 00:01:04 . Memory (MB): peak = 1015.551 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:47 ; elapsed = 00:00:49 . Memory (MB): peak = 1016.230 ; gain = 0.000
+Finished Technology Mapping : Time (s): cpu = 00:01:00 ; elapsed = 00:01:05 . Memory (MB): peak = 1015.551 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -193,37 +187,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:55 ; elapsed = 00:00:57 . Memory (MB): peak = 1016.230 ; gain = 0.000
+Finished IO Insertion : Time (s): cpu = 00:01:12 ; elapsed = 00:01:18 . Memory (MB): peak = 1015.551 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:55 ; elapsed = 00:00:57 . Memory (MB): peak = 1016.230 ; gain = 0.000
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:12 ; elapsed = 00:01:18 . Memory (MB): peak = 1015.551 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:55 ; elapsed = 00:00:57 . Memory (MB): peak = 1016.230 ; gain = 0.000
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:12 ; elapsed = 00:01:18 . Memory (MB): peak = 1015.551 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:55 ; elapsed = 00:00:57 . Memory (MB): peak = 1016.230 ; gain = 0.000
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:12 ; elapsed = 00:01:18 . Memory (MB): peak = 1015.551 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:55 ; elapsed = 00:00:57 . Memory (MB): peak = 1016.230 ; gain = 0.000
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:12 ; elapsed = 00:01:18 . Memory (MB): peak = 1015.551 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:55 ; elapsed = 00:00:57 . Memory (MB): peak = 1016.230 ; gain = 0.000
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:12 ; elapsed = 00:01:18 . Memory (MB): peak = 1015.551 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -241,41 +235,39 @@ Report Cell Usage:
 +------+-------+------+
 |1     |BUFG   |     1|
 |2     |CARRY4 |    34|
-|3     |LUT1   |    83|
-|4     |LUT2   |    95|
-|5     |LUT3   |    10|
-|6     |LUT4   |    19|
-|7     |LUT5   |     7|
-|8     |LUT6   |    28|
-|9     |FDCE   |    61|
-|10    |FDPE   |    84|
-|11    |FDRE   |     6|
-|12    |LD     |     6|
-|13    |IBUF   |     7|
-|14    |OBUF   |    15|
-|15    |OBUFT  |    12|
+|3     |LUT1   |    82|
+|4     |LUT2   |    85|
+|5     |LUT3   |     9|
+|6     |LUT4   |    23|
+|7     |LUT5   |    11|
+|8     |LUT6   |    13|
+|9     |MUXF7  |     1|
+|10    |FDCE   |    64|
+|11    |FDPE   |    84|
+|12    |IBUF   |     7|
+|13    |OBUF   |    16|
+|14    |OBUFT  |    12|
 +------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:55 ; elapsed = 00:00:57 . Memory (MB): peak = 1016.230 ; gain = 0.000
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:12 ; elapsed = 00:01:18 . Memory (MB): peak = 1015.551 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:39 ; elapsed = 00:00:53 . Memory (MB): peak = 1016.230 ; gain = 0.000
-Synthesis Optimization Complete : Time (s): cpu = 00:00:55 ; elapsed = 00:00:58 . Memory (MB): peak = 1016.230 ; gain = 0.000
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:58 ; elapsed = 00:01:14 . Memory (MB): peak = 1015.551 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:01:12 ; elapsed = 00:01:19 . Memory (MB): peak = 1015.551 ; gain = 0.000
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1016.230 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 40 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 1015.551 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 35 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1016.230 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1015.551 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 6 instances were transformed.
-  LD => LDCE: 6 instances
+No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-32 Infos, 5 Warnings, 0 Critical Warnings and 0 Errors encountered.
+32 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:05 ; elapsed = 00:01:09 . Memory (MB): peak = 1016.230 ; gain = 0.000
+synth_design: Time (s): cpu = 00:01:24 ; elapsed = 00:01:33 . Memory (MB): peak = 1015.551 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/Lab11_project.runs/synth_1/guessing_game.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file guessing_game_utilization_synth.rpt -pb guessing_game_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sat Nov 14 16:11:38 2020...
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 18 14:51:46 2020...
