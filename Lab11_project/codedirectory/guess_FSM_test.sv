@@ -45,13 +45,13 @@ module guess_FSM_test();
         en=1; #75; //two cycles through the states
         en=0; #20; //testing hold
         en=1; #41; //goes into first state
-        b=4'b0001; #15; //win state for first state
+        b=4'b1110; #15; //win state for first state
         b=4'b0000; #15; //let go of button, goes back to first state and enters second state
-        b=4'b0010; #15; //win state for second state
+        b=4'b1101; #15; //win state for second state
         b=4'b0000; #25; 
-        b=4'b0100; #15; //win state for third state
+        b=4'b1011; #15; //win state for third state
         b=4'b0000; #35;
-        b=4'b1000; #15; //win state for fourth state
+        b=4'b0111; #15; //win state for fourth state
         b=4'b0000; #10; 
         b=4'b0010; #15; //lose state for first state
         b=4'b0000; #15;

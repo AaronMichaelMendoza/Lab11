@@ -25,7 +25,7 @@ module guessing_game(
     input[15:0] sw,
     output reg [6:0] seg,
     output [3:0] an,
-    output [15:0] led,
+    output reg [15:0] led,
     output dp
     );
     
@@ -79,20 +79,20 @@ module guessing_game(
         .clk(clk),
         .en(mux_out),
         .reset(btnC),
-        .y(led[15:12]),
+        .y(an),
         .win(win_out),
         .lose(lose_out));
     
     always @* begin
     if (win_out)
-        seg = 7'b0000000;
+        led = 15'b111111111111111;
     else if (lose_out)
-        seg = 7'b1111110;
+        led = 15'b101010101010101;
     else 
-        seg = 7'b1111111;   
+        led = 15'b000000000000000;  
     end
         
-    assign an=4'b0000; 
+    assign seg = 7'b0111111; 
     assign dp=1'b1;   
 
 endmodule
