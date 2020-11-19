@@ -17,7 +17,7 @@ proc create_report { reportName command } {
   }
 }
 namespace eval ::optrace {
-  variable script "C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/Lab11_project.runs/impl_1/guessing_game.tcl"
+  variable script "C:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/Lab11_project.runs/impl_1/guessing_game.tcl"
   variable category "vivado_impl"
 }
 
@@ -125,7 +125,7 @@ set rc [catch {
   set_param chipscope.maxJobs 2
   set_param xicom.use_bs_reader 1
   open_checkpoint guessing_game_routed.dcp
-  set_property webtalk.parent_dir C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/Lab11_project.cache/wt [current_project]
+  set_property webtalk.parent_dir C:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/Lab11_project.cache/wt [current_project]
 set_property TOP guessing_game [current_fileset]
 OPTRACE "read constraints: write_bitstream" START { }
 OPTRACE "read constraints: write_bitstream" END { }

@@ -1,4 +1,6 @@
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/guess_FSM.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/codedirectory/guess_FSM.sv" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module guess_FSM
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/guess_FSM_test.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/codedirectory/guess_FSM_test.sv" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module guess_FSM_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/Lab11_project.sim/sim_2/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

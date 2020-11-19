@@ -52,7 +52,7 @@ module guess_FSM(
         state_next = s0;
         case(state)
             s0: begin
-            y=4'b1110;
+            y=4'b0001;
                 if (b[1] | b[2] | b[3]) begin
                     state_next = slose;
                     end
@@ -63,7 +63,7 @@ module guess_FSM(
                     state_next = s1;
                 end
             s1: begin
-            y=4'b1101;
+            y=4'b0010;
                 if (b[0] | b[2] | b[3]) begin
                     state_next = slose;
                     end
@@ -74,7 +74,7 @@ module guess_FSM(
                     state_next = s2;
                 end
             s2: begin
-            y=4'b1011;
+            y=4'b0100;
                 if (b[0] | b[1] | b[3]) begin
                     state_next = slose;
                     end
@@ -85,7 +85,7 @@ module guess_FSM(
                     state_next = s3;
                 end
             s3: begin
-            y=4'b0111;
+            y=4'b1000;
                 if (b[0] | b[1] | b[2]) begin
                     state_next = slose;
                     end
@@ -98,7 +98,7 @@ module guess_FSM(
             slose: begin
             lose = 1; 
             win = 0;
-            y = 4'b0110;
+            y = 4'b0000;
                 if (b[0] | b[1] | b[2] | b[3]) begin
                     state_next = slose;
                     end
@@ -108,7 +108,7 @@ module guess_FSM(
             swin: begin
             win= 1;
             lose = 0;
-            y=4'b0000;
+            y=4'b1111;
                 if (b[0] | b[1] | b[2] | b[3]) begin
                     state_next = swin;
                     end

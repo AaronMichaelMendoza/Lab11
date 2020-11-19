@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1605744746">
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1605812339">
   <File Type="BITSTR-BMM" Name="guessing_game_bd.bmm"/>
   <File Type="OPT-METHODOLOGY-DRC" Name="guessing_game_methodology_drc_opted.rpt"/>
   <File Type="INIT-TIMING" Name="guessing_game_timing_summary_init.rpt"/>
