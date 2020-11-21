@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "C:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/Lab11_project.runs/synth_1/guessing_game.tcl"
+  variable script "C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/Lab11_project.runs/synth_1/guessing_game.tcl"
   variable category "vivado_synth"
 }
 
@@ -70,28 +70,26 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 2
-set_param xicom.use_bs_reader 1
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a35tcpg236-1
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir C:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/Lab11_project.cache/wt [current_project]
-set_property parent.project_path C:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/Lab11_project.xpr [current_project]
+set_property webtalk.parent_dir C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/Lab11_project.cache/wt [current_project]
+set_property parent.project_path C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/Lab11_project.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_output_repo c:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/Lab11_project.cache/ip [current_project]
+set_property ip_output_repo c:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/Lab11_project.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib -sv {
-  C:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/codedirectory/counter.sv
-  C:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/codedirectory/debounce.sv
-  C:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/codedirectory/guess_FSM.sv
-  C:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/codedirectory/mux_diff.sv
-  C:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/codedirectory/guessing_game.sv
+  C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/counter.sv
+  C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/debounce.sv
+  C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/guess_FSM.sv
+  C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/mux_diff.sv
+  C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/guessing_game.sv
 }
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -102,8 +100,8 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc C:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/codedirectory/Basys3_11.xdc
-set_property used_in_implementation false [get_files C:/Users/aaron_mendoza1/Documents/GitHub/Lab11/Lab11_project/codedirectory/Basys3_11.xdc]
+read_xdc C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/Basys3_11.xdc
+set_property used_in_implementation false [get_files C:/Users/ammic/OneDrive/Documents/GitHub/Lab11/Lab11_project/codedirectory/Basys3_11.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]

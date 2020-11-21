@@ -1,8 +1,8 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
-| Date         : Thu Nov 19 13:00:10 2020
-| Host         : ROG-305-07 running 64-bit major release  (build 9200)
+| Date         : Thu Nov 19 16:41:14 2020
+| Host         : DESKTOP-Q9L58VR running 64-bit major release  (build 9200)
 | Command      : report_timing_summary -max_paths 10 -file guessing_game_timing_summary_routed.rpt -pb guessing_game_timing_summary_routed.pb -rpx guessing_game_timing_summary_routed.rpx -warn_on_violation
 | Design       : guessing_game
 | Device       : 7a35t-cpg236

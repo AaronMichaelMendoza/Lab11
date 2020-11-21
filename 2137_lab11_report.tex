@@ -53,12 +53,13 @@
 	\lstinputlisting[style=Verilog,#1]{#2}
 }
 
-
+\usepackage[section]{placeins}
 
 
 %======================================================
 %=========== Body  ====================================
 \begin{document}
+
 
 \title{ELC 2137 Lab 11: FSM: Guessing Game}
 \author{Aaron Mendoza}
@@ -100,16 +101,28 @@ My top level module guessing-game combines all of these previous modules. Each o
 \section*{Results}
 
 \begin{figure}[ht]\centering
-	\includegraphics[width=1\textwidth,trim=19cm 15cm 0.5cm 4.5cm,clip]{debounce_test_screenshot}
+	\includegraphics[width=1\textwidth,trim=32cm 20cm 0cm 4.5cm,clip]{debounce_test_screenshot}
 	\caption{Debounce Simulation Screenshot}
 	\label{fig:sim_with_table}
 \end{figure}
 
+\FloatBarrier
+
 \begin{figure}[ht]\centering
-	\includegraphics[width=1\textwidth,trim=19cm 15cm 0.5cm 4.5cm,clip]{guess_FSM_screenshot}
+	\includegraphics[width=1\textwidth,trim=26cm 18cm 0cm 4.5cm,clip]{guess_FSM_screenshot}
 	\caption{Guess-FSM Simulation Screenshot}
 	\label{fig:sim_with_table}
 \end{figure}
+
+\FloatBarrier
+
+\begin{figure}[ht]\centering
+	\includegraphics[width=1\textwidth,trim=26cm 15.5cm 0.5cm 4.5cm,clip]{guessing_game_test_screenshot}
+	\caption{Guessing Game Simulation Screenshot}
+	\label{fig:sim_with_table}
+\end{figure}
+
+\FloatBarrier
 
 \begin{table*}[ht]\centering
 	\caption{Games Played}
@@ -123,7 +136,11 @@ My top level module guessing-game combines all of these previous modules. Each o
 	\end{tabular}
 \end{table*}
 
+\FloatBarrier
+
 The win percentage of both my difficulties was 100 percent. The speed of my moving target was not very fast, but that can easily change by modifying the parameters within my code.
+
+Here is a link to a video that has me playing the game at both difficulties: https://youtu.be/hejE2cdHryo
 
 \section*{Code}
 
@@ -140,5 +157,7 @@ The win percentage of both my difficulties was 100 percent. The speed of my movi
 \Verilog[firstline=23, lastline=68, caption=Guess FSM Testbench Code]{Lab11_project/codedirectory/guess_FSM_test.sv}|
 
 \Verilog[firstline=23, lastline=109, caption=Guessing Game Module Code]{Lab11_project/codedirectory/guessing_game.sv}|
+
+\Verilog[firstline=23, lastline=63, caption=Guessing Game Testbench Code]{Lab11_project/codedirectory/guessing_game_test.sv}|
 
 \end{document}
